@@ -1,11 +1,11 @@
 CC=cc
 
-FLAGS=-O3
+FLAGS=-O3 -g
 
 all: life
 
 life: life.c
-	$(CC) $(FLAGS) life.c -o life
+	gcc -Wall -o life life.c -lpthread
 
 clean:
 	rm -f life
