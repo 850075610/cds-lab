@@ -17,7 +17,7 @@
 #include <pthread.h>
 
 //#define MAX_CPUS 
-#define NUM_THREADS 8
+#define NUM_THREADS 24
 //get_env("MAX_CPUS")
 
 typedef unsigned char cell_t;
